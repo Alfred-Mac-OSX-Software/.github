@@ -41,20 +41,22 @@
 ---
 
 ## Overview
-Alfred enhances macOS workflows with structured <a href="#">system integration</a>, optimized <a href="#">performance flow</a> and reliable <a href="#">resource handling</a>. 
-It keeps navigation responsive even during large operations using internal <a href="#">workflow queues</a> and <a href="#">task scheduling</a>.
+Alfred extends macOS productivity by introducing a deeply structured layer of <a href="#">system integration</a>, designed to coordinate actions, data access and user interactions with minimal friction. Instead of acting as a simple launcher, it functions as a workflow engine capable of chaining commands, performing background lookups and organizing resources in real time. This system-level coherence is supported by internal <a href="#">performance flow</a> models that distribute processing across lightweight execution paths. As a result, search responsiveness remains immediate even when handling large volumes of indexed content or complex automation tasks.
+
+The core architecture emphasizes reliable <a href="#">resource handling</a>, maintaining stable performance during heavy usage by relying on parallelized indexing, cached metadata layers and persistent memory maps. Alfred keeps UI responsiveness high through asynchronous <a href="#">workflow queues</a> and smart <a href="#">task scheduling</a>, preventing any single operation from interrupting user input or system navigation.
 
 ### Optimized for macOS-Native Workflows
-The interface follows <a href="#">macOS conventions</a>, aligning menus, window behavior and dialog interactions with native expectations.
+Alfred’s interface is intentionally designed around established <a href="#">macOS conventions</a>, aligning search fields, contextual menus, input panels and visual hierarchy with native interaction patterns. This allows users to transition seamlessly without needing to relearn basic controls. Window behavior, keyboard shortcuts and modal transitions respect macOS guidelines, giving Alfred the feel of a built-in utility rather than a standalone tool.
 
 ### Localized Resource Handling & Customization
-Runs fully on a <a href="#">local processing model</a>, enabling offline stability and customizable <a href="#">configuration profiles</a>.
+All core logic runs through a <a href="#">local processing model</a>, ensuring that workflows, queries and file operations remain available even without internet connectivity. Users can define detailed <a href="#">configuration profiles</a>, adjusting triggers, action sequences, text expansions, search scopes and UI themes. These profiles can be swapped, exported or layered to support different work environments—from writing and coding to administrative tasks or data analysis.
 
 ### Cross-Hardware Optimization
-Designed for <a href="#">Intel</a> and <a href="#">Apple Silicon</a>, ensuring smooth performance during extended sessions.
+Alfred is tuned for both <a href="#">Intel</a> and <a href="#">Apple Silicon</a> architectures, taking advantage of multi-core setups and advanced caching mechanisms. Heavy indexing or script-based workflows operate efficiently during prolonged sessions, minimizing thermal load and maintaining predictable performance across diverse hardware configurations.
 
 ### Data Management & Long-Term Stability
-Implements <a href="#">data structure rules</a>, <a href="#">metadata consistency</a> and safe <a href="#">buffer management</a> to maintain stability across recurring workflows.
+Underneath the interface, Alfred enforces strict <a href="#">data structure rules</a> to keep results accurate and consistent. The system uses layered <a href="#">metadata consistency</a> checks to ensure that indexing stays synchronized with the filesystem. Safe <a href="#">buffer management</a>, controlled memory reuse and periodic integrity checks help preserve stability even when workflows grow complex or when multiple automated routines run concurrently. This long-term reliability makes Alfred suitable for professional environments where predictable behavior is essential.
+
 
 
 <img src="https://www.alfredapp.com/media/pages/home-v5/workflow-canvas.png" width="900">
